@@ -9,14 +9,33 @@
               sizes="32x32"
               href="./assets/images/favicon-32x32.png"/>
         <title>Frontend Mentor | QR code component</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+              rel="stylesheet">
         <link rel="stylesheet" href="./dist/css/styles.css" />
     </head>
-    <body class="h-full bg-violet-200">
-        Improve your front-end skills by building projects
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        <div class="text-xs text-center">
+    <body class="h-full bg-[#d5e1ef] grid grid-rows-[1fr_auto]">
+        <main class="container mx-auto flex justify-center items-center">
+            <div class="p-5 pb-12 bg-white rounded-2xl text-center max-w-sm shadow-md">
+                <img src="./assets/images/image-qr-code.png"
+                     alt="QR Code"
+                     class="w-full rounded-xl">
+                <div class="mt-6 px-2">
+                    <h1 class="text-2xl font-bold">
+                        Improve your front-end
+                        <br/>
+                        skills by building projects
+                    </h1>
+                    <p class="text-md text-gray-400 mt-2">
+                        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="p-4 text-sm text-center border-t border-neutral-200">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Farhad Uneci & Mehran Abbasi</a>.
-        </div>
+            Coded by <a href="#">Farhad Uneci</a>.
+        </footer>
     </body>
 </html>
